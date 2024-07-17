@@ -1,0 +1,10 @@
+.aptitudes-text {
+    color: aliceblue;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.aptitudes-text span {
+    color: aqua;
+}

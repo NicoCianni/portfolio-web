@@ -1,8 +1,10 @@
 import "./App.css"
 import { IntroduceText } from "./IntroduceText"
 import { NavIntro } from "./NavIntro"
-import SliderCarrusel from "./SliderCarrusel"
+import  SliderCarrusel from "./SliderCarrusel"
 import { TextCarrusel } from "./TextCarrusel"
+import { Aptitudes } from "./SkillsAptitudes"
+import { Bars } from "./BarsChart"
 
 
 function App () {
@@ -21,7 +23,8 @@ function App () {
                 </div>
             </section>
             <section className="skills-section">
-                
+                <Aptitudes />
+                <Bars />
             </section>
             </>
         </>
