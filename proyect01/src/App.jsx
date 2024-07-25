@@ -5,6 +5,7 @@ import  SliderCarrusel from "./SliderCarrusel"
 import { TextCarrusel } from "./TextCarrusel"
 import { Aptitudes } from "./SkillsAptitudes"
 import { Bars } from "./BarsChart"
+import { PreviousExp } from "./PreviousExp"
 
 
 function App () {
@@ -23,8 +24,14 @@ function App () {
                 </div>
             </section>
             <section className="skills-section">
-                <Aptitudes />
-                <Bars />
+                <div className="skills-div">
+                    <Aptitudes />
+                    <Bars />
+                </div>
+                <h2 className="h2-title">Previous Experience and Studies</h2>
+                <div>
+                    <PreviousExp />
+                </div>
             </section>
             </>
         </>
