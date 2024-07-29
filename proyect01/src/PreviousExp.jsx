@@ -2,7 +2,7 @@ import "./PreviousExp.css"
 
 export function PreviousExp () {
     return (
-        <section>
+        <section className="section-exp">
             <div className="alz-div">
                 <h1>
                 ALZ Mercados S.A (From Oct. 2020 to Actually)
@@ -30,6 +30,20 @@ export function PreviousExp () {
                     <p>Work hard</p>
                 </div>
                 <img src="../coder-logo.jpeg"/>
+            </div>
+            <div className="aricana-div">
+                <h1>
+                A.R.I.C.A.N.A (From Jun. 2023 to Jan. 2024)
+                </h1>
+                <div>
+                    <h3>
+                        School Scholarship
+                    </h3>
+                    <p>Meetings</p>
+                    <p>Capacitations</p>
+                    <p>Work hard</p>
+                </div>
+                <img src="../aricana-logo.jpeg"/>
             </div>
         </section>
     )

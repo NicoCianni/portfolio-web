@@ -3,3 +3,19 @@
     width: 180px;
     margin: 40px;
 }
+
+.carrusel-container {
+    width: 260px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carrusel-item {
+    display: flex;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carrusel-item img {
+    width: 300px;
+}

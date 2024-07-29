@@ -1,9 +1,7 @@
-
 .alz-div {
-    display: flex;
+    display: block;
     align-items: center;
-    justify-content: space-between;
-    padding: 40px;
+    text-align: center;
 }
 
 .alz-div h1 {
@@ -11,21 +9,19 @@
     font-size: 25px;
     font-weight: bolder;
     color: #ffff;
-}
-
-.alz-div div {
-    text-align: center;
+    margin-left: 20px;
 }
 
 .alz-div div h3{
-
+    text-align: center;
     color: rgb(49, 230, 13);
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
 }
 
 .alz-div div p {
+    text-align: center;
     font-family: sans-serif;
     font-size: 16px;
     font-weight: bolder;
@@ -33,14 +29,13 @@
 }
 
 .alz-div img {
-    width: 500px;
+    width: 400px;
 }
 
 .coder-div {
-    display: flex;
+    display: block;
     align-items: center;
-    justify-content: space-between;
-    padding: 40px;
+    text-align: center;
 }
 
 .coder-div h1 {
@@ -48,6 +43,7 @@
     font-size: 25px;
     font-weight: bolder;
     color: #ffff;
+    margin-left: 20px;
 }
 
 .coder-div div {
@@ -55,17 +51,53 @@
 }
 
 .coder-div img {
-    width: 500px;
+    width: 400px;
 }
 
 .coder-div div h3 {
     color: rgb(223, 226, 12);
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
 }
 
 .coder-div div p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #ffff;
+}
+
+.aricana-div {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.aricana-div h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #ffff;
+    margin-left: 20px;
+}
+
+.aricana-div div {
+    text-align: center;
+}
+
+.aricana-div img {
+    width: 250px;
+}
+
+.aricana-div div h3 {
+    color: rgb(11, 167, 230);
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.aricana-div div p {
     font-family: sans-serif;
     font-size: 16px;
     font-weight: bolder;

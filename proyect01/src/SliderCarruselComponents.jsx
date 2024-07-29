@@ -12,10 +12,18 @@ const images = [
 ];
 
 const CarruselComponent = ({ currentIndex }) => {
+
+    const transformValue = "translateX(-" + (currentIndex * 100) + "%";
+
     return (
-        <div className="carrusel-item">
-            <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
+        <div className='carrusel-container'>
+            <div className="carrusel-item" style={{ transform : transformValue }}>
+                {images.map((image, index) => (
+                    <img src={image} key={index} alt={`Slide ${index + 1}`} />
+                ))}
+            </div>
         </div>
+
     );
 };
 
