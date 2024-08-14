@@ -1,0 +1,25 @@
+.skills-section{
+    background-color: rgb(37, 37, 37);
+    padding-bottom: 30px;
+}
+
+.skills-div {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.h2-title {
+    font-size: 36px;
+    background-color: #f8e802;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 15px;
+}

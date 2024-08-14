@@ -1,6 +1,8 @@
 import React, { useState , useEffect} from 'react';
 import CarruselComponent, { images } from './SliderCarruselComponents';
 import "./SliderCarrusel.css"
+import { motion } from 'framer-motion';
+
 
 const SliderCarrusel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,11 +21,15 @@ const SliderCarrusel = () => {
     }, [currentIndex]);
 
     return (
-        <div className="carrusel">
+        <motion.div 
+        initial = {{x : 200, opacity: 0 }}
+        whileInView = {{ x: 0, opacity: 1 }}
+        transition = {{duration : 1.5}}
+        className="carrusel">
             <div className="carrusel-slide">
                 <CarruselComponent currentIndex={currentIndex} />
             </div>
-        </div>
+        </motion.div>
     );
 };
 

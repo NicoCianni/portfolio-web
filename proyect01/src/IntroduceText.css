@@ -2,14 +2,5 @@
     color: #fff;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
-    margin: 25px;
-    transition-duration: 1.5s;
-}
-
-.int-text-name:hover {
-    transform: scale(1.0) translate(-4px,0px);
-    -webkit-transform: scale(1.0) translate(-4px,0px);
-    -moz-transform: scale(1.0) translate(-4px,0px);
-    color: aqua;
-    
+    margin: 20px;
 }
