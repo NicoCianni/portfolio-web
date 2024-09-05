@@ -1,9 +1,14 @@
+import { motion } from "framer-motion"
 import "./PreviousExp.css"
 
 export function PreviousExp () {
     return (
         <section className="section-exp">
-            <div className="alz-div">
+            <motion.div
+            initial = {{y : 300, opacity: 0}}
+            whileInView={{y: 0, opacity: 1}}
+            transition={{duration : 1.5}}
+            className="alz-div">
                 <h1>
                 ALZ Mercados S.A (From Oct. 2020 to Actually)
                 </h1>
@@ -12,12 +17,16 @@ export function PreviousExp () {
                         Administrative Sr. at Cereal Brokerage
                     </h3>
                     <p>Meetings</p>
-                    <p>Capacitations</p>
-                    <p>Work hard</p>
+                    <p>Staff training</p>
+                    <p>Multitasking</p>
                 </div>
                 <img src="../ALZ-Agro-logo.jpg"/>
-            </div>
-            <div className="coder-div">
+            </motion.div>
+            <motion.div 
+            initial = {{y : 300, opacity: 0}}
+            whileInView={{y: 0, opacity: 1}}
+            transition={{duration : 1.5}}
+            className="coder-div">
                 <h1>
                 Coder House (From Jun. 2023 to Jan. 2024)
                 </h1>
@@ -25,13 +34,17 @@ export function PreviousExp () {
                     <h3>
                         Front End Developer
                     </h3>
-                    <p>Meetings</p>
-                    <p>Capacitations</p>
-                    <p>Work hard</p>
+                    <p>Web Developer</p>
+                    <p>JavaScript</p>
+                    <p>React.js</p>
                 </div>
                 <img src="../coder-logo.jpeg"/>
-            </div>
-            <div className="aricana-div">
+            </motion.div>
+            <motion.div
+            initial = {{y : 300, opacity: 0}}
+            whileInView={{y: 0, opacity: 1}}
+            transition={{duration : 1.5}}
+            className="aricana-div">
                 <h1>
                 A.R.I.C.A.N.A (From Jun. 2023 to Jan. 2024)
                 </h1>
@@ -44,7 +57,7 @@ export function PreviousExp () {
                     <p>Work hard</p>
                 </div>
                 <img src="../aricana-logo.jpeg"/>
-            </div>
+            </motion.div>
         </section>
     )
 }

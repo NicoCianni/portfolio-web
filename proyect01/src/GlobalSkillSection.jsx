@@ -8,7 +8,11 @@ import { motion } from "framer-motion"
 export function GlobalSkill () {
     return (
         <section className="skills-section" id="skills">
-            <motion.div className="skills-div">
+            <motion.div
+            initial = {{x : -800, opacity : 0}}
+            whileInView={{x : 0, opacity : 1}}
+            transition={{duration : 2}}
+            className="skills-div">
                 <Aptitudes />
                 <Bars />
             </motion.div>
