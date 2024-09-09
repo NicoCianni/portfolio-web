@@ -20,7 +20,7 @@ export function PreviousExp () {
                     <p>Staff training</p>
                     <p>Multitasking</p>
                 </div>
-                <img src="../dist/assets/alzagrologo.png"/>
+                <img src="./assets/alzagrologo.png"/>
             </motion.div>
             <motion.div 
             initial = {{y : 300, opacity: 0}}
