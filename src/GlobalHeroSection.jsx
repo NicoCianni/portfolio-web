@@ -8,7 +8,7 @@ export function GlobalHero () {
         <section className="hero-section">
             <motion.img 
             className="hero-img" 
-            src="./assets/newphoto.jpg"
+            src="../src/assets/newphoto.jpg"
             initial = {{x : -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{duration : 1.5}}
