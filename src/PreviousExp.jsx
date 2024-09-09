@@ -56,7 +56,7 @@ export function PreviousExp () {
                     <p>Capacitations</p>
                     <p>Work hard</p>
                 </div>
-                <img src="../src/assets/aricanalogo.jpeg"/>
+                <img src="../dist/aricanalogo.jpeg"/>
             </motion.div>
         </section>
     )
