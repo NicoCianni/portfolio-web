@@ -20,7 +20,7 @@ export function PreviousExp () {
                     <p>Staff training</p>
                     <p>Multitasking</p>
                 </div>
-                <img src="./assets/ALZ-Agro-logo.jpg"/>
+                <img src="./assets/alzagrologo.jpg"/>
             </motion.div>
             <motion.div 
             initial = {{y : 300, opacity: 0}}
@@ -38,7 +38,7 @@ export function PreviousExp () {
                     <p>JavaScript</p>
                     <p>React.js</p>
                 </div>
-                <img src="./assets/coder-logo.jpeg"/>
+                <img src="./assets/coderlogo.jpeg"/>
             </motion.div>
             <motion.div
             initial = {{y : 300, opacity: 0}}
@@ -56,7 +56,7 @@ export function PreviousExp () {
                     <p>Capacitations</p>
                     <p>Work hard</p>
                 </div>
-                <img src="./assets/aricana-logo.jpeg"/>
+                <img src="./assets/aricanalogo.jpeg"/>
             </motion.div>
         </section>
     )
